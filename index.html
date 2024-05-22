@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style/style.css" />
+    <title>TicTacToe</title>
+  </head>
+  <body>
+    <div class="landing-page-container">
+      <header>
+        <h1 class="game-title">
+          <span class="text-tic">Tic</span><span class="text-tac">Tac</span
+          ><span class="text-toe">Toe</span>
+        </h1>
+        <span class="game-copyright">Made by Rifa Prasetya</span>
+      </header>
+      <nav>
+        <h2 class="title">Menu</h2>
+        <a class="btn 2player-btn" href="src/playgame.html">2-PLayer</a>
+        <button id="exitBtn" class="btn exit-btn">Exit</button>
+      </nav>
+    </div>
+
+    <script>
+      document
+        .getElementById('exitBtn')
+        .addEventListener('click', () => window.close());
+    </script>
+  </body>
+</html>
